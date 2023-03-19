@@ -1,0 +1,137 @@
+
+.white{ 
+  display: block; 
+  background-color: white; 
+  height: 80px; 
+  width: 400px; 
+} 
+.red{ 
+  display: block; 
+  background-color: red; 
+  height: 80px; 
+  width: 400px;  
+} 
+.white:after{ 
+  content: " "; 
+  display: block; 
+  position: absolute; 
+  border-top: 80px solid transparent; 
+  border-left: 160px solid blue; 
+  border-bottom: 80px solid transparent; 
+  z-index: 1; 
+} 
+.sweden{ 
+  display: block; 
+  height: 150px; 
+  width: 400px; 
+  background-color: blue; 
+
+} 
+.sweden:after{ 
+  content: " "; 
+  position: absolute; 
+  display: block; 
+  height: 35px; 
+  width: 400px; 
+  margin-top: 58px; 
+  background-color: yellow; 
+  z-index: 1; 
+} 
+
+
+  .sweden:before{ 
+  content: " "; 
+  position: absolute; 
+  display: block; 
+  height: 150px; 
+  width: 35px; 
+  margin-left: 135px; 
+  background-color: yellow; 
+  
+} 
+
+
+
+
+.england{ 
+  display: block; 
+  height: 150px; 
+  width: 400px; 
+  background-color: white; 
+
+} 
+.england:after{ 
+  content: " "; 
+  position: absolute; 
+  display: block; 
+  height: 35px; 
+  width: 400px; 
+  margin-top: 58px; 
+  background-color: red; 
+  z-index: 1; 
+} 
+
+
+  .england:before{ 
+  content: " "; 
+  position: absolute; 
+  display: block; 
+  height: 150px; 
+  width: 35px; 
+  margin-left: 180px; 
+  background-color: red; 
+  
+} 
+
+
+
+
+.bangladesh{ 
+  position: absolute; 
+  display: block; 
+  height: 150px; 
+  width: 400px; 
+  background-color: green; 
+
+} 
+.bangladesh2{ 
+    height: 100px; 
+    width: 110px; 
+    background-color: red; 
+    border-radius: 50%; 
+    position: relative; 
+    top: 28px; 
+    left: 127px; 
+
+} 
+
+.white1{ 
+  position: absolute; 
+  height: 160px; 
+  width: 400px; 
+  display: block; 
+  background-color: #FFFFFF; 
+
+
+} 
+.blue1{ 
+  position: absolute; 
+  height: 160px; 
+  width: 133.33px; 
+  display: block; 
+  background-color: #002654; 
+  margin-left: 0px; 
+  z-index: 1; 
+
+} 
+
+  .red1{ 
+  position: absolute; 
+  height: 160px; 
+  width: 133.33px; 
+  display: block; 
+  background-color: #ED2939; 
+  margin-left: 266.67px; 
+
+} 
+
